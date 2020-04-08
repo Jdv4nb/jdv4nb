@@ -1,0 +1,3 @@
+I plan to attend the Evolution Working Group at 9am on April 8th.
+
+While listening to the podcast, the part that stood out to me most was when they mentioned the variety of people involved.  I appreciate the mix of both experienced members of the industry and academics.  The goal is really interesting to me as well.  The goal is to make information visible and actionable for all types of businesses and allows for a number of different uses.  This is crucial because each business has different needs for metrics and CHAOSS gives them a better way to analyze important data.
