@@ -1,0 +1,1 @@
+For setup, the only function currently is to click the Google button, which is supposed to take you to a login page.  A logout button is also included.  I saved the file as .html so I can add css styling after I figure out the login function.

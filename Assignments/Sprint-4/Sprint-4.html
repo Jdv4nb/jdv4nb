@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+npm i hellojs@next
+<html>
+    <head>
+    <title>Sprint-4</title>
+    </head>
+    <body>
+<script src="./dist/hello.all.js"></script>
+<script>
+hello.init({
+    google: "700727789484-id403s9gretj87k8jkv3v12e86eo73da.apps.googleusercontent.com"
+});    
+</script>
+
+        <button onclick="hello('google').login()">Google</button>
+        <button onclick="hello('google').logout()">Log out</button>
+    </body>
+</html>

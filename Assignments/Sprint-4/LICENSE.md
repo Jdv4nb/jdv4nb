@@ -1,0 +1,1 @@
+Of the source software licenses, I think I would prefer to use Eclipse Public License version 2.0.  In the past when I first tried my hand at coding I used Eclipse for Java and therefore feel a connection with it.  I would like to be able to make contributions to this project because it helped me get a start with coding and I would appreciate giving back.
