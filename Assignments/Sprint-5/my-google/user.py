@@ -9,6 +9,7 @@ class User(UserMixin):
         self.name = name
         self.email = email
         self.profile_pic = profile_pic
+        
 
     @staticmethod
     def get(user_id):
