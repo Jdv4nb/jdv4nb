@@ -5,3 +5,5 @@ Below are a couple of the links I visited and read.  Though there were more that
 https://stackoverflow.com/questions/11556958/sending-data-from-html-form-to-a-python-script-in-flask - Collecting/utilizing form data
 
 https://medium.com/@mahmudahsan/how-to-run-javascript-in-python-web-scraping-web-testing-16bd04894360 - For incorporating JavaScript for form submission.
+
+https://realpython.com/python-web-applications/ - General article about web apps using Python.
