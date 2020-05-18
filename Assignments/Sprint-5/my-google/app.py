@@ -2,7 +2,7 @@
 import json
 import os
 import sqlite3
-
+import tkinter as tk
 # Third party libraries
 from flask import Flask, redirect, request, url_for
 from flask_login import (
@@ -64,7 +64,11 @@ def index():
             "<p>Hello, {}! You're logged in! Email: {}</p>"
             "<div><p>Google Profile Picture:</p>"
             '<img src="{}" alt="Google profile pic"></img></div>'
-            "<div><p>Google description</p></div>"
+            '<div><label for "description"><strong>About me: </strong></label></div>'
+            '<div width = 200><p>Hello, my name is Jonathan.  I graduated from Douglas County High School in 2017 with an IB Diploma.  I am currently a Junior at the University of Missouri.  For the majority of my life I played soccer.  I played both for my high school and for clubs.  In my free time I enjoy hiking, cooking, and video games.  I currently work as a computer science intern at a software company in Colorado called MedKeeper. <br> </p></div>'
+            '<label for "history"><strong>Work history: </strong></label>'
+            '<div><p>From April, 2016 until August, 2017 I worked for a salad company called MAD Greens. <br> From May, 2017 until August, 2019 I worked at Gap Inc. and Old Navy. <br> I am currently working at MedKeeper as an intern.  I have been working there since May, 2019. </p></div>'
+            '<span id="spanResult"></span>'
             '<a class="button" href="/logout">Logout</a>'.format(
                 current_user.name, current_user.email, current_user.profile_pic
             )
